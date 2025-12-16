@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hospital Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>🏥 City Care Hospital</h1>
+    <p>Your Health, Our Priority</p>
+  </header>
+
+  <!-- Navigation -->
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <!-- Main Content -->
+  <main>
+
+    <!-- Appointments -->
+    <section class="card">
+      <h2>📅 Appointments</h2>
+      <div id="appointments">
+        <p>Loading appointments...</p>
+      </div>
+    </section>
+
+    <!-- Registered Patients -->
+    <section class="card">
+      <h2>👤 Registered Patients</h2>
+      <ul id="patientList"></ul>
+
+      <!-- ✅ EXTRA BUTTON FOR EXCEL -->
+      <button onclick="downloadExcel()">⬇ Download Excel</button>
+    </section>
+
+    <!-- Booking Form -->
+    <section class="card">
+      <h2>📝 Book Appointment</h2>
+
+      <form id="bookingForm">
+        <input type="text" id="name" placeholder="Patient Name" required><br><br>
+        <input type="number" id="age" placeholder="Age" required><br><br>
+        <input type="text" id="doctor" placeholder="Doctor Name" required><br><br>
+        <button type="submit">Submit</button>
+      </form>
+
+      <div id="result"></div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 City Care Hospital | All Rights Reserved</p>
+  </footer>
+
+  <!-- JS -->
+  <script src="script.js"></script>
+
+</body>
+</html>

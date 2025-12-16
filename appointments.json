@@ -1,0 +1,18 @@
+[
+    {
+        "doctor": "Dr. Smith",
+        "time": "10:00 AM"
+    },
+    {
+        "doctor": "Dr. Lee",
+        "time": "11:00 AM"
+    },
+    {
+        "doctor": "Dr. Patel",
+        "time": "02:00 PM"
+    },
+    {
+        "doctor": "Dr. Pooja",
+        "time": "03:00 PM"
+    }
+]
